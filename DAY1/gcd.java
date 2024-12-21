@@ -15,9 +15,10 @@ public class gcd {
             else
                 b=b%a;
         }
-        if(a==0)
-            return b;
-        else
-            return a;
+        // if(a==0)
+        //     return b;
+        // else
+        //     return a;
+        return Math.max(a,b);
     }
 }
