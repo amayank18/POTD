@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DAY5/DAY5.iml" filepath="$PROJECT_DIR$/DAY5/DAY5.iml" />
       <module fileurl="file://$PROJECT_DIR$/POTD.iml" filepath="$PROJECT_DIR$/POTD.iml" />
     </modules>
   </component>

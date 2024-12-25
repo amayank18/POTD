@@ -1,4 +1,4 @@
-class Solution {
+class  smallerNumberThanCurrentNumber{
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] arr=new int[nums.length];
         for(int i=0;i<nums.length;i++) {
