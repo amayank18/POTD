@@ -1,4 +1,4 @@
-class Solution {
+class minimumMovesToConvertString {
     public int minimumMoves(String s) {
         int count=0;
         int n=s.length();

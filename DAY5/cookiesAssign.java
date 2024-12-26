@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class cookiesAssign {
     public int findContentChildren(int[] g, int[] s) {
         int count=0;
