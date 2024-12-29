@@ -1,4 +1,3 @@
-package DAY9;
 
 import java.util.Scanner;
 
@@ -11,8 +10,19 @@ public class LongLong {
             int[] arr=new int[n];
             for(int i=0;i<n;i++)
                 arr[i]=sc.nextInt();
-            int count=0,sum=0;
-
+            long count=0,sum=0,neg=0;
+            for(int i=0;i<n;i++) {
+                sum+=Math.abs(arr[i]);
+                if(arr[i]<0) {
+                    if(neg==0) {
+                        neg = 1;
+                        count++;
+                    }
+                }
+                else if(arr[i]>0) {
+                    neg=0;
+                }
+            }
             System.out.println(sum + " " + count);
         }
     }
