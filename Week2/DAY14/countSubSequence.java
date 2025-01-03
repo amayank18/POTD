@@ -1,4 +1,3 @@
-package Week2.DAY14;
 
 import java.util.Scanner;
 
@@ -9,16 +8,16 @@ public class countSubSequence {
         while(t-- > 0) {
             int n=sc.nextInt();
             int[] a=new int[n];
-            int count=0;
+            int zc=0,c=0;
             for(int i=0;i<n;i++) {
                 a[i] = sc.nextInt();
 
                 if(a[i]==1)
-                    count++;
+                    c++;
                 if(a[i]==0)
-                    count++;
+                    zc++;
             }
-            System.out.println(count);
+            System.out.println((long)Math.pow(2,zc)*c);
         }
     }
 }
