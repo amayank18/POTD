@@ -1,5 +1,7 @@
 package Week4.DAY24;
 
+import java.util.Arrays;
+
 public class medianOfTwoSortedArray {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n=nums1.length+nums2.length;
